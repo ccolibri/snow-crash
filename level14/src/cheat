@@ -1,0 +1,12 @@
+> ls -al
+
+> find / -user flag14 2>/dev/null
+
+> gdb level14
+> layout asm
+
+> b *0x804898e
+> r
+> jump *0x8048de5
+
+> su flag14 

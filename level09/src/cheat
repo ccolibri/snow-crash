@@ -1,0 +1,33 @@
+> ls -al
+
+> ./level09
+> cat token
+> ./level09 1111
+
+need to reverse token for 1 position before each
+
+*** we need script to decrypt this ***
+* yes, on C *
+#include <string.h>
+#include <stdio.h>
+
+int	main(int ac, char **av) {
+	int i = 0;
+	while (i < strlen(av[1])) {
+		av[1][i]-= i;
+		i++;
+	}
+	puts(av[1]);
+	return (0);
+}
+
+need to create and compile this scrypt in /tmp
+
+> vi /tmp/decode.c
+> chmod +x decodec.c 
+> cd /tmp && gcc /tmp/decode.c -o decode
+> ./decode `cat ~/token`
+
+> su flag09
+f3iji1ju5yuevaus41q1afiuq
+> su level10

@@ -1,0 +1,16 @@
+> la -al
+
+level02.pcap
+
+.pcap - TCP packages file, open it with Wireshark and try to find smtnhg
+
+find package with "password" word and open it
+than we need to check the pass with ASCII and delete ... and all symbols
+                    before it by points count
+*****
+ft_wandr...NDRel.LOL
+*****
+ft_waNDReLOL - pass to flag02
+
+> su flag02
+> su level03

@@ -1,0 +1,11 @@
+> ls -al
+
+> ltrace ./level13
+
+> gdb level13
+> layout asm
+> b *0x804859a
+> r
+> jump *0x80485cb
+
+> su level14

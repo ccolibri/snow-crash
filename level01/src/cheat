@@ -1,0 +1,12 @@
+> cat /etc/passwd
+
+> sudo apt install john
+> echo 42hDRfypTqqnw > passwd
+
+take 42hDRfypTqqnw and go with it to John the ripper
+> john --show passwd
+
+abcdefg - pass to flag01
+
+> su flag01
+> su level02
